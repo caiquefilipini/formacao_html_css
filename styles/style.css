@@ -117,14 +117,14 @@ body {
     color: var(--cor-terciaria);
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     /* background-color: var(--cor-terciaria); */
     display: flex;
     justify-content: center;
     gap: 16px;
     color: var(--cor-secundaria);
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     border-radius: 8px;
     padding: 21.5px 0;
     text-align: center;
@@ -144,6 +144,15 @@ body {
     background-color: var(--cor-primaria);
     transition: 0.5s;
 } */
+
+
+.apresentacao__imagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .rodape {
     color: var(--cor-secundaria);
